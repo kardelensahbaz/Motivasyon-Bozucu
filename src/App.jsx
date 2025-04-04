@@ -101,7 +101,7 @@ export default function App() {
         
      İpucu: currentData state'ini görmek ve içeriğine ve yapısına alışmak için bu bileşenin üst seviyesinde herhangi bir yerde showState(currentData) komutunu çağırın. 
 */
-showState(currentData)//datayı konsoleda görmek için
+
   return (
     <div className='wrapper' style={currentData?.image?.wrapperStyles}>
       {currentData && (
